@@ -1,0 +1,330 @@
+header {
+  margin-left: 250px;
+  margin-right: 5px; /* Same as the width of the sidenav */
+  background-color : #1c1c1e ;
+  color : #fefefe ;
+}
+
+body {
+  font-family: sans-serif;
+  margin-left: 10px;
+  margin-right: 30px;
+  /*background-image: url("image/video.png");*/
+  background-color : #fefefe ;
+  color : #fefefe ;
+}
+
+main {
+  margin-left: 250px;
+  margin-right: 5px; /* Same as the width of the sidenav */
+}
+
+aside {
+  color: white;
+}
+
+section {
+  background-color : #1c1c1e ;
+  color : #fefefe ;
+
+}
+
+article {
+  background-color : #1c1c1e ;
+}
+
+h1 {
+ text-align:center;
+ font-weight:bold;
+ color : #fefefe ;
+}
+
+h2, h3 {  
+color:white;
+background-color:gray;
+
+}
+
+img{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  filter: grayscale(20%);
+}
+
+footer {
+  margin-left: 250px;
+   margin-right: 5px; /* Same as the width of the sidenav */
+  background-color: gray;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+
+footer a {
+  font-size: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  padding: 15px;
+  text-align: center;
+}
+
+td {  
+  background-color : #1c1c1e ;
+  color : #fefefe ;
+ }
+
+ th {
+  background-color : #1c1c1e ;
+  color : #fefefe ;
+}
+
+legend {
+  color : #fefefe ;
+}
+
+ .fullbackground{
+  background-color: gray;
+ }
+
+.imageplan{
+    width: 25%;
+}
+
+.imageregle{
+    width: 50%;
+}
+
+.imageregle2{
+    width: 25%;
+}
+
+/* menu de navigation en haut */
+
+.navbar {
+  overflow: hidden;
+  background-color: gray;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #1c1c1e;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #02003D;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: blue;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* image du menu en haut */
+
+.imagetop {
+  width: 75%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/* menu de navigation en bas */
+.bottomnav {
+  font-size: 30px;
+}
+
+.bottomnav a:hover {
+  background-color: white;
+}
+
+
+
+/* menu de navigation sur le coté */
+
+.sidenav {
+  height: 100%;
+  width: 225px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* écriture dans le menu de navigation sur le coté */
+
+.sidenav a {
+  padding: 6px 6px 6px 10px;
+  text-decoration: underline;
+  font-size: 25px;
+  background-color: #111;
+  color: #fefefe;
+  display: block;
+}
+
+
+.sidenav a:hover {
+  color: #818181;
+}
+
+.localisation a {
+  padding: 6px 6px 6px 10px;
+  text-decoration: none;
+  font-size: 15px;
+  background-color: #111;
+  color: #fefefe;
+}
+
+.localisation a:hover {
+  color: #fefefe;
+}
+
+.bigger{
+  padding: 6px 6px 6px 10px;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+
+/* Feuille de style pour Calendrier */
+table.cal { font-size:12px; border: 3px  ;font-size:13pt;margin-left: 5px; }
+/* la case contenant le nom du mois */
+.cal td.cal_titre { background-color: green; }
+/* les cases des jours de la semaine */
+.cal th { text-align:center;background-color: blue; color:white; }
+/* les autres cases */
+.cal td { text-align:center; margin:0px; padding:0px; }
+/* la case correspondant � aujourd'hui */
+.cal td.today { background-color: gray; margin:0;  }
+
+/*tableau d'images(affiches de film)*/
+.conteneur{
+  width: 80%;
+  min-width: 400px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.sun{
+  width: 30%;
+}
+
+.square {
+  width: 200px;
+  height: 300px;
+  border: 0;
+  text-shadow: white 0px 0px 2px;
+  font-size: 16px;
+  background-size: 150px;
+}
+
+.icon {
+  width: 200px;
+  height: 200px;
+  border: solid 2px;
+  text-shadow: white 0px 0px 2px;
+  font-size: 16px;
+  background-size: 150px;
+}
+
+.padd {
+  padding-bottom: 0px;
+}
+
+.bouton{
+background:url(image/loupe.png);
+border:none;
+width: 20px; 
+height: 20px; 
+cursor: pointer;
+}
+
+.bar {
+  fill: gray;
+  height: 21px;
+  transition: fill 0.3s ease;
+  cursor: pointer;
+  font-family: Helvetica, sans-serif;
+}
+.bar text {
+  fill: gray;
+}
+
+.chart:hover .bar{
+  fill: gray;
+}
+.chart:focus .bar {
+  fill: gray;
+}
+
+.bar:hover,
+.bar:focus {
+  fill: white !important;
+}
+.bar:hover text,
+.bar:focus text {
+  fill: white;
+}
+
+.spechart figcaption {
+  font-weight: bold;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.spechart title, text {
+  font-family: "Open Sans", sans-serif;
+  color: gray;
+}
