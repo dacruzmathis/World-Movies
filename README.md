@@ -1,2 +1,7 @@
-# WorldMovies
-Projet de réalisation d'un site web de films et séries échangeant avec OMDB et TMDB API. Interface de recherche de films ou séries en fonction de critères définis. Stockage (sur fichiers) côté serveur des films consultés par les internautes ainsi que la génération d'une partie statistique des films les plus consultés. Projet de synthèse du module Développement Web de L2.
+# World Movies
+
+Project for developing a website for movies and TV series that interacts with the OMDB and TMDB APIs.  
+The site features a search interface for movies or series based on defined criteria.  
+On the server side, there is storage (in files) of the films viewed by users, along with the generation of statistical data on the most viewed films.  
+Licence 2 project made for the Web Development cursus at CY Paris Université.  
+Made with Lelievre Saidou.  
